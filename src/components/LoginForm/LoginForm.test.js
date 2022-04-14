@@ -8,3 +8,7 @@ test('renders sign in page', () => {
 });
 
 // Add more unit test here
+var validator = require("email-validator");
+ 
+validator.validate("test@email.com"); // true
+ 

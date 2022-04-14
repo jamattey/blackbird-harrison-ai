@@ -19,8 +19,10 @@ export default function LoginForm() {
     const password = data.get('password');
 
     // Add validation code here
+    
 
   }
+  
 
   const handleSubmit = (event) => {
     event.preventDefault();
